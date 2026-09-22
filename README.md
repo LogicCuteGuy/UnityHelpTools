@@ -21,14 +21,31 @@ A collection of helpful Unity Editor tools for scene management, object manipula
 
 ## Installation
 
+### Via VPM / VRChat Creator Companion (recommended)
+Add the LogicCuteGuy listing in **Settings > Packages > Add Repository**:
+`https://vpm.logiccuteguy.com/index.json`
+
 ### Via Unity Package Manager (Disk)
 1. Open the **Package Manager** in Unity (`Window > Package Manager`).
 2. Click the **+** icon and select **Add package from disk...**.
 3. Select the `package.json` file in this directory.
 
 ### Via Git URL
-You can also add this package via Git URL if it is hosted on a repository:
-`https://github.com/LogicCuteGuy/com.logiccuteguy.helptools.git`
+You can also add this package via Git URL:
+`https://github.com/LogicCuteGuy/UnityHelpTools.git`
+
+## Menu Commands
+
+| Menu | Tools |
+|---|---|
+| **GameObject > LogicCuteGuy** | Auto Scale In Lightmap, Paste As Child To All Selected Parents, Random Rotate Children, Random Spawn Children On NavMesh, Rename Children Increment, Replace Or Remove Child Materials, Select Children By Pattern, Sort Parent Children |
+| **Assets** | Check Usage in Scene, Fix Missing Shaders (Prefab → Standard) |
+| **Window > LogicCuteGuy** | Shader Texture Mapper |
+| **Component context menu** | Open Fix Cloned Component References (MonoBehaviour), Switch Child Lightmap Mode (MeshRenderer), Terrain Swap (Terrain) |
+
+Tool windows include a built-in language switcher (English / 日本語 / ไทย).
+
+Full documentation: [docs.logiccuteguy.com](https://docs.logiccuteguy.com/)
 
 ## Support
 If you find these tools helpful, consider supporting my work:
